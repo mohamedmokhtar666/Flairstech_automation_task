@@ -1,7 +1,7 @@
 
 Automation Part:
 
-1. Cypress framework and Cucumber as a BDD tool are used to implement UI login for 'https://automationexercise.com' website.
+1. Cypress framework and Cucumber as a BDD tool are used to implement UI login for 'https://opensource-demo.orangehrmlive.com/' website.
 2. Under e2e package two folders have been created:
    1. The first one is 'features' which contains all the feature files.
    2. The second one is 'step_definitions' which contains all the step definitions js files.
