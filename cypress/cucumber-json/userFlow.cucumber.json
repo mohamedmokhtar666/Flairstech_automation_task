@@ -1,0 +1,112 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "automation excercise for create and delete user feature",
+    "line": 1,
+    "id": "automation-excercise-for-create-and-delete-user-feature",
+    "tags": [],
+    "uri": "userFlow.feature",
+    "elements": [
+      {
+        "id": "automation-excercise-for-create-and-delete-user-feature;login-in-with-valid-credentials-to-create-and-delete-user",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Login in with valid credentials to create and delete user",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "user opens orangehrmlive website",
+            "result": {
+              "status": "passed",
+              "duration": 883000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "user login with valid credentials",
+            "result": {
+              "status": "passed",
+              "duration": 2547000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "user navigate to Admin tab from the left side menu",
+            "result": {
+              "status": "passed",
+              "duration": 1499000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "user get the number of records found",
+            "result": {
+              "status": "passed",
+              "duration": 998000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "user click on add button and fill new record form",
+            "result": {
+              "status": "passed",
+              "duration": 5370000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "validate that the number of records 'increased' by one",
+            "result": {
+              "status": "passed",
+              "duration": 5769000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "user search with new username",
+            "result": {
+              "status": "passed",
+              "duration": 678000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "user deletes the selected username",
+            "result": {
+              "status": "passed",
+              "duration": 639000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "validate that the number of records 'decreased' by one",
+            "result": {
+              "status": "passed",
+              "duration": 1242000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
